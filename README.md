@@ -51,7 +51,7 @@ I've tested Pimoroni Blinkt! devices with Raspberry Pi 3B+ (rev. 1.3), and Raspb
 |                      |                                          |
 |:---------------------|:-----------------------------------------|
 | **Author:**          | Tomasz Klim (<opensource@tomaszklim.pl>) |
-| **Copyright:**       | Copyright 2008-2018 Tomasz Klim          |
+| **Copyright:**       | Copyright 2018 Tomasz Klim               |
 | **License:**         | MIT                                      |
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

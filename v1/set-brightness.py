@@ -36,6 +36,6 @@ for x in range(blinkt.NUM_PIXELS):
 blinkt.set_clear_on_exit(False)
 blinkt.show()
 
-# push the changed pixel to cache and save it
+# save the cache to file
 with open(fname, 'w') as outfile:
     json.dump(pixels, outfile)
