@@ -3,6 +3,8 @@
 import sys
 import blinkt
 import json
+import time
+import random
 import os.path
 
 
@@ -28,6 +30,8 @@ if pixel > 7:
 # either read the cache file or initialize cache with all pixels off
 fname = sys.argv[1]
 if os.path.isfile(fname):
+    if os.path.getsize(fname) == 0:
+        time.sleep(random.uniform(0.07,0.22))
     with open(fname) as f:
         pixels = json.load(f)
 else:
