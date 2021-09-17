@@ -1,6 +1,6 @@
 ## Overview
 
-blinkt-persistence is a simple command line API, that allows manipulating Pimoroni Blinkt! lights by separate processes (original Python API allows for that only from a single process, since the device itself is write-only, and light states are just stored as global variable).
+`blinkt-persistence` is a simple command line API, that allows manipulating Pimoroni Blinkt! lights by separate processes (original Python API allows for that only from a single process, since the device itself is write-only, and light states are just stored as global variable).
 
 This API simply uses an internal cache to store the device state and restore it on every script execution. Not much efficient, but does the job. Contributions are welcome.
 
@@ -44,14 +44,27 @@ After thet, you can use this API.
 
 ## Compatibility
 
-I've tested Pimoroni Blinkt! devices with Raspberry Pi 3B+ (rev. 1.3), and Raspberry Pi Zero, on Raspbian Jessie and Raspbian Stretch.
+I've tested Pimoroni Blinkt! devices with:
+
+- Raspberry Pi 3B (rev. 1.2)
+- Raspberry Pi 3B+ (rev. 1.3)
+- Raspberry Pi 400
+- Raspberry Pi Zero
+- Raspberry Pi Zero W
+
+on:
+
+- Raspbian Jessie
+- Raspbian Stretch
+- Raspbian Buster
+
 
 ## License
 
 |                      |                                          |
 |:---------------------|:-----------------------------------------|
 | **Author:**          | Tomasz Klim (<opensource@tomaszklim.pl>) |
-| **Copyright:**       | Copyright 2018-2020 Tomasz Klim          |
+| **Copyright:**       | Copyright 2018-2021 Tomasz Klim          |
 | **License:**         | MIT                                      |
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
